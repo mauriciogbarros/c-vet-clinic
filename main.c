@@ -1,7 +1,11 @@
 /*
 Veterinary Clinic Application
-
 Main module
+- Declares and populates main structs:
+    - pets: array of Patient with the patient data.
+    - appoints: array of appointments with the appointment data.
+    - data: data structure that contains pets, MAX_PETS, appoints, and MAX_APPPOINTMENTS.
+- Calls menuMain that controls the execution of the application.
 */
 
 #include <stdio.h>
